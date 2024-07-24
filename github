@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escomat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .social-buttons img {
+            width: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo-blanco-colores.png" alt="Escomat Logo">
+    </header>
+    <div class="container">
+        <h1>Bienvenidos a Escomat</h1>
+        <p>Somos una escuela en línea de matemáticas, comprometida con el aprendizaje lógico de esta materia. Nos enfocamos en proporcionar experiencias en cada clase, cuidando que aprendan, entiendan, se diviertan y lo más importante; que nuestros alumnos puedan aplicar lo aprendido en su vida cotidiana. Contamos con clases desde preescolar hasta secundaria. ¡Conócenos en una clase muestra!</p>
+        <img src="Tomando clases en línea.jpeg" alt="Niños felices tomando clases en línea" style="width:100%; max-width:600px;">
+        <br><br>
+        <a href="https://www.facebook.com/profile.php?id=61560341200512&locale=es_LA" class="button">Agendar Clase Muestra</a>
+        <div class="social-buttons">
+            <a href="https://www.facebook.com/profile.php?id=61560341200512&locale=es_LA"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/escomatclases/"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </div>
+</body>
+</html>
